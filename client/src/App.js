@@ -11,7 +11,7 @@ function App() {
       <Router>
         <div className="App">
           <Header />
-         
+          <MainPages />
           
         </div>
       </Router>
