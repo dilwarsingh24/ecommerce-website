@@ -4,6 +4,14 @@ const productCtrl = require('../controllers/productCtrl')
 //const authAdmin = require('../middleware/authAdmin')
 
 
+router.route('/products')
+    .get(productCtrl.getProducts)
+    .post( productCtrl.createProduct)
+
+
+router.route('/products/:id')
+    .delete( productCtrl.deleteProduct)
+    .put(productCtrl.updateProduct)
 
 
 
