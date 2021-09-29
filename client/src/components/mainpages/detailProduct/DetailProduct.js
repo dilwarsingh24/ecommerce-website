@@ -23,7 +23,7 @@ function DetailProduct() {
     
     return(
         <>
-        <div className="detail">
+        {/* <div className="detail">
                 <img src={detailProduct.images.url} alt="" />
                 <div className="box-detail">
                     <div className="row">
@@ -39,7 +39,7 @@ function DetailProduct() {
                         Buy Now
                     </Link>
                 </div>
-            </div>
+            </div> */}
 
             <div>
                 <h2>Related products</h2>
