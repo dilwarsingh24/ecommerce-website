@@ -12,6 +12,8 @@
     height: 300px;
     display: block;
     object-fit: cover;
+    max-width: 248px;
+    margin: auto;
 }
 .product_box h2{
     width: 100%;
