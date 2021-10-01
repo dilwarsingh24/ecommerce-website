@@ -133,3 +133,8 @@ button{
     margin: 20px 0;
   }
 }
+@media (max-width: 570px) {
+  .cart{
+    height: 800px;
+  }
+}
