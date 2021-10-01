@@ -54,7 +54,7 @@ function Header() {
 
 
 
-                    <Link to="/">{isAdmin ? 'Admin-pannel' : '#Keshu Shop#'}</Link>
+                    <Link to="/">{isAdmin ? 'Admin-pannel' : '@Keshu Shop'}</Link>
 
 
 
