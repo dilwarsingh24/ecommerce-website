@@ -51,10 +51,14 @@ function Header() {
 
             <div className="logo">
                 <h1>
+<<<<<<< HEAD
 
 
                     <Link to="/">{isAdmin ? 'Admin-pannel' : '#Keshu Shop#'}</Link>
 
+=======
+                    <Link to="/">{isAdmin ? 'Admin-pannel' : 'Keshu Shop'}</Link>
+>>>>>>> child
                 </h1>
                 
             </div>

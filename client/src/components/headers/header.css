@@ -14,6 +14,7 @@ header .logo{
 header a{
     text-transform: uppercase;
     color: #555;
+    font-family: ui-rounded;
 }
 header ul li{
     display: inline-block;
