@@ -2,7 +2,7 @@
 
 > Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
 
-# Demo: https://testing-keshu-ecommerce.herokuapp.com/
+# Website open: https://keshu-ecommerce-website.herokuapp.com/
 
 ## Author: Keshu
 
