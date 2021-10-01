@@ -32,25 +32,27 @@ button{
   background: transparent;
   cursor: pointer;
 }
+
 /* ---------------- Header ------------ */
 @import url("./components/headers/header.css");
 
 /* ------------- Products -------------- */
+
 @import url("./components/mainpages/products/products.css");
 
 /* ---------------- Detail Product --------------- */
 @import url("./components/mainpages/detailProduct/detailProduct.css");
 
-/* ---------------- Login & Register --------------- */
+/* ------------- Login/Register ----------------- */
 @import url("./components/mainpages/auth/login.css");
 
 /* ------------ Cart ------------------- */
 @import url("./components/mainpages/cart/cart.css");
 
-/*------------History------------------*/
+/* --------------- History ------------------- */
 @import url("./components/mainpages/history/history.css");
 
-/*------------Category--------------*/
+/* ------------------ Categories ------------------ */
 @import url("./components/mainpages/categories/categories.css");
 
 /* ------------------- Create Product -------------- */
@@ -109,8 +111,6 @@ button{
   .detail{
     font-size: 100%;
     padding: 0;
-    padding-bottom: 11px;
-    height: 800px;
   }
   .filter_menu input{
     margin: 0;
@@ -131,10 +131,5 @@ button{
   }
   .create_product .upload{
     margin: 20px 0;
-  }
-}
-@media (max-width: 570px) {
-  .cart{
-    height: 800px;
   }
 }
